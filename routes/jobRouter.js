@@ -9,10 +9,12 @@ import {
   deleteJob,
   showStats,
 } from '../controllers/jobController.js';
+
 import {
   validateJobInput,
   validateIdParam,
-} from '../middleware/validationMiddleWare.js';
+} from '../middleware/validationMiddleware.js';
+
 import { checkForTestUser } from '../middleware/authMiddleware.js';
 
 router
